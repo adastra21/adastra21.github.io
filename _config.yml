@@ -1,0 +1,44 @@
+# Site
+title: Abdur Rehman
+description: Master's in Interdisciplinary Data Science, Duke University '21
+url: adastra21.github.io
+logo: mids.png
+locale: en_US
+
+# Left Block Images
+background:
+  homepage: images/falling-star.png                   
+  post-list: images/lighthouse-shower.png   
+  default-post: images/unsplash-gallery-image-3.jpg
+
+# Jekyll
+permalink:          /:title/
+markdown:           kramdown
+highlighter:        rouge
+kramdown:
+  auto_ids:         true
+  footnote_nr:      1
+  entity_output:    as_char
+  toc_levels:       1..6
+  enable_coderay:   false
+sass:
+  sass_dir:         assets/_sass
+  style:            compressed
+
+# Google Analytics
+#google-analytics: UA-XXXXX-Y
+
+# Social Links
+email:             abdur.rehman@duke.edu
+linkedin:          abdurrehman21
+github:            adastra21
+
+# Gems
+gems:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-gist
+
+# Exclude list
+include: [_pages]
+exclude: [README.md, Gemfile, Gemfile.lock, _site, src, vendor, CNAME, LICENSE, Rakefile, .sass-cache, .DS_Store]

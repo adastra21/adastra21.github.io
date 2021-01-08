@@ -1,0 +1,24 @@
+- title: The Price of Homes on Zameen.com
+  # url: http://taylantatli.me/Halve
+  image: images/project-zameen-logo-2.png
+  completed: false
+
+- title: Detecting and Mitigating Bias in Car Insurance
+  # url: http://taylantatli.me/Moon
+  image: images/project-allstate-logo-2.png
+  completed: false
+
+- title: The Odds of Winning in the EPL
+  url: https://github.com/adastra21/odds_of_winning
+  image: images/project-epl-logo.png
+  completed: true
+
+- title: Trump and US Migration
+  url: https://github.com/adastra21/Trump_and_migration
+  image: images/project-immigration.png
+  completed: true
+
+- title: Slackbot – Mr Wise Guy
+  url: https://github.com/adastra21/slackbot_mr_wise_guy
+  image: images/project-prison-mike.png
+  completed: true
