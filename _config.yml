@@ -1,6 +1,6 @@
 # Site
 title: Abdur Rehman
-description: Master's in Interdisciplinary Data Science, Duke University '21
+description: Responsible Data Scientist | MS, Data Science '21
 url: https://adastra21.github.io
 logo: mids.png
 locale: en_US
@@ -29,7 +29,7 @@ sass:
 #google-analytics: UA-XXXXX-Y
 
 # Social Links
-email:             abdur.rehman@duke.edu
+email:             hello@boringdata.org
 linkedin:          abdurrehman21
 github:            adastra21
 
