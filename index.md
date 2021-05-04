@@ -1,7 +1,6 @@
 ---
 layout: home
 ---
-## Responsible Data Scientist
 
 I am a Responsible Data Scientist and use fair machine learning to solve complex business problems. In particular, I am interested in building algorithms that respect user privacy and autonomy and produce fair outcomes.
 

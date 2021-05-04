@@ -1,12 +1,12 @@
 - title: The Price of Homes on Zameen.com
-  # url: http://taylantatli.me/Halve
+  url: https://github.com/adastra21/house_prices_on_zameen
   image: images/project-zameen-logo-2.png
-  completed: false
+  completed: true
 
 - title: Detecting and Mitigating Bias in Car Insurance
-  # url: http://taylantatli.me/Moon
+  url: https://github.com/adastra21/fairness_aware_preprocessing
   image: images/project-allstate-logo-2.png
-  completed: false
+  completed: true
 
 - title: The Odds of Winning in the EPL
   url: https://github.com/adastra21/odds_of_winning
