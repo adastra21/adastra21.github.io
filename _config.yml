@@ -1,6 +1,6 @@
 # Site
 title: Abdur Rehman
-description: Responsible Data Scientist | MS, Data Science '21
+description: MIDS '21, Duke University
 url: https://adastra21.github.io
 logo: mids.png
 locale: en_US
@@ -33,8 +33,8 @@ email:             hello@boringdata.org
 linkedin:          abdurrehman21
 github:            adastra21
 
-# Gems
-gems:
+# Plugins/Gems
+plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-gist
