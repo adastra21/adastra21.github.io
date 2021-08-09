@@ -2,10 +2,12 @@
 layout: home
 ---
 
-I am a Responsible Data Scientist and use fair machine learning to solve complex business problems. In particular, I am interested in building algorithms that respect user privacy and autonomy and produce fair outcomes.
+I am a Data Scientist interested in solving problems at the intersection of privacy, fairness and machine learning. 
 
-My graduate research focused on using preprocessing techniques to de-bias datasets. I found that reweighing is a simple yet powerful technique that can mitigate bias with respect to multiple sensitive attributes.
+I recently graduated with a MS in Interdisciplinary Data Science from Duke University. My graduate research focused on using reweighing to de-bias real-world datasets.
 
-Previously, I worked for 5 years in the technology industry in data science, business intelligence and analytics implementation. My career highlight is developing Jet.com’s competitive advantage in analytics after its acquisition by Walmart for $3.3B in 2016.
+Before Duke, I worked in the tech industry for over 5 years in different roles spanning business intelligence, analytics implementation and data science.
 
-I graduated with a MS in Interdisciplinary Data Science from Duke University.
+My career objective is to develop machine learning methods that preserve privacy and ensure fairness.
+
+To learn more about my work, see Projects.
