@@ -2,12 +2,10 @@
 layout: home
 ---
 
-I am a Data Scientist interested in solving problems at the intersection of privacy, fairness and machine learning. 
+My mission is to help startups scale with the use of data science.
 
-I recently graduated with a MS in Interdisciplinary Data Science from Duke University. My graduate research focused on using reweighing to de-bias real-world datasets.
+I am a Data Scientist with 6 years of experience in business intelligence, analytics implementation and data science in leading technology companies in the US and Pakistan. Most recently, I led demand forecasting for a quick commerce startup in Lahore, Pakistan.
 
-Before Duke, I worked in the tech industry for over 5 years in different roles spanning business intelligence, analytics implementation and data science.
-
-My career objective is to develop machine learning methods that preserve privacy and ensure fairness.
+I have a MS in Interdisciplinary Data Science from Duke University, and BS in Mathematical Economics from Gettysburg College.
 
 To learn more about my work, see Projects.
