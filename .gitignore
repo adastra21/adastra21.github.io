@@ -1,5 +1,4 @@
 # Created by https://www.toptal.com/developers/gitignore/api/jekyll
-# Edit at https://www.toptal.com/developers/gitignore?templates=jekyll
 
 ### Jekyll ###
 _site/
@@ -9,4 +8,6 @@ _site/
 _config_dev.yml
 _posts_default/
 
-# End of https://www.toptal.com/developers/gitignore/api/jekyll
+Gemfile.lock
+
+# End
