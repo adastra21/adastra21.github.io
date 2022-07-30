@@ -1,6 +1,6 @@
 # Site
 title: Abdur Rehman
-description: Data Scientist, Duke MIDS '21
+description: Bored Data Scientist | Duke MIDS '21
 url: adastra21.github.io
 logo: mids.png
 locale: en_US
@@ -25,9 +25,6 @@ sass:
   sass_dir:         assets/_sass
   style:            compressed
 
-# Google Analytics
-#google-analytics: UA-XXXXX-Y
-
 # Social Links
 <<<<<<< HEAD
 email:             hello@boringdata.org
@@ -36,7 +33,6 @@ email:             hello@boringdata.org
 >>>>>>> 8f286de (update bio, add new email and twitter)
 linkedin:          abdurrehman21
 github:            adastra21
-twitter:           boredatascience
 
 # Plugins/Gems
 plugins:
