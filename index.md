@@ -2,10 +2,8 @@
 layout: home
 ---
 
-My mission is to help organizations solve problems with social impact.
+Abdur Rehman is a Product Data Scientist with 6+ years of experience in business intelligence and analytics in leading technology companies in the US.
 
-I am an Analytics Leader with 6+ years of experience in business intelligence, analytics and data science in leading technology companies.
+He graduated with a MS in Interdisciplinary Data Science from Duke University.
 
-I have a MS in Interdisciplinary Data Science from Duke University, and BS in Mathematical Economics from Gettysburg College.
-
-Feel free to reach out if I can assist.
+Feel free to reach out with any requests.
