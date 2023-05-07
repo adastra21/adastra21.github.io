@@ -1,7 +1,7 @@
 # Created by https://www.toptal.com/developers/gitignore/api/jekyll
 
 ### Jekyll ###
-_site/
+# _site/
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
