@@ -2,7 +2,7 @@
 layout: home
 ---
 
-Abdur Rehman is a Full Stack Data Analyst with 6+ years of experience in analytics and data science at leading technology companies in the US.
+Abdur Rehman is a Data Scientist with 6+ years of experience in customer analytics at leading technology companies in North America.
 
 He has a MS in Interdisciplinary Data Science from Duke University.
 

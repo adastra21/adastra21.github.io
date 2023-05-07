@@ -1,8 +1,8 @@
 # Site
 title: Abdur Rehman
-description: Full Stack Data Analyst
+description: Data Scientist | Customer Analytics
 url: adastra21.github.io
-logo: boringdata.org.png
+logo: bd23.png
 locale: en_US
 
 # Left Block Images
@@ -27,10 +27,13 @@ sass:
 
 # Social Links
 <<<<<<< HEAD
+<<<<<<< HEAD
 email:             hello@boringdata.org
 =======
-email:             hello@boringdata.org
+email:             hello@boringdata.org 
 >>>>>>> 8f286de (update bio, add new email and twitter)
+=======
+>>>>>>> cc1363e (update site)
 linkedin:          abdurrehman21
 github:            adastra21
 
