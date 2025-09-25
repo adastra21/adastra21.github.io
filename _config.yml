@@ -1,7 +1,7 @@
 # Site
 title: Abdur Rehman
 description: "Product Analytics | Predictive Modelling | Responsible AI"
-url: "http://boringdata.org"
+url: "https://boringdata.org"
 logo: bd23.png
 locale: en_US
 
@@ -26,19 +26,9 @@ sass:
   style:            compressed
 
 # Social Links
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 email:             hello@boringdata.org
-=======
-email:             hello@boringdata.org 
->>>>>>> 8f286de (update bio, add new email and twitter)
-=======
->>>>>>> cc1363e (update site)
 linkedin:          abdurrehman21
-=======
 linkedin:          boringdata
->>>>>>> ebfc5bb (update bio + projects, remove posts, fix headline wrapping)
 github:            adastra21
 
 # Plugins/Gems
