@@ -1,6 +1,6 @@
 # Site
 title: Abdur Rehman
-description: Data Scientist | Customer Analytics
+description: "Product Analytics | Predictive Modelling | Responsible AI"
 url: adastra21.github.io
 logo: bd23.png
 locale: en_US
@@ -28,6 +28,7 @@ sass:
 # Social Links
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 email:             hello@boringdata.org
 =======
 email:             hello@boringdata.org 
@@ -35,6 +36,9 @@ email:             hello@boringdata.org
 =======
 >>>>>>> cc1363e (update site)
 linkedin:          abdurrehman21
+=======
+linkedin:          boringdata
+>>>>>>> ebfc5bb (update bio + projects, remove posts, fix headline wrapping)
 github:            adastra21
 
 # Plugins/Gems
@@ -45,4 +49,4 @@ plugins:
 
 # Exclude list
 include: [_pages, CNAME]
-exclude: [README.md, Gemfile, Gemfile.lock, _site, src, vendor, LICENSE, Rakefile, .sass-cache, .DS_Store]
+exclude: [README.md, Gemfile, Gemfile.lock, _site, src, vendor, LICENSE, Rakefile, .sass-cache, .DS_Store, _posts]

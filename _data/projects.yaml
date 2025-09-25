@@ -1,3 +1,13 @@
+- title: The Odds of Winning in the EPL
+  url: https://github.com/adastra21/odds_of_winning
+  image: images/project-epl-logo.png
+  completed: true
+
+- title: TTC Streetcar Delays
+  url: https://github.com/adastra21/ttc_streetcar_delays
+  image: images/project-ttc-streetcar.png
+  completed: true
+
 - title: The Price of Homes on Zameen.com
   url: https://github.com/adastra21/house_prices_on_zameen
   image: images/project-zameen-logo-2.png
@@ -8,17 +18,8 @@
   image: images/project-allstate-logo-2.png
   completed: true
 
-- title: The Odds of Winning in the EPL
-  url: https://github.com/adastra21/odds_of_winning
-  image: images/project-epl-logo.png
-  completed: true
-
-- title: Trump and US Migration
-  url: https://github.com/adastra21/Trump_and_migration
-  image: images/project-immigration.png
-  completed: true
-
-- title: Slackbot – Mr Wise Guy
-  url: https://github.com/adastra21/slackbot_mr_wise_guy
-  image: images/project-prison-mike.png
+- title: ChatGPT Your Data
+  url: https://github.com/adastra21/chatgpt-your-data
+  image: images/project-chatgpt.png
+  image_credit: "Vecteezy.com"
   completed: true
