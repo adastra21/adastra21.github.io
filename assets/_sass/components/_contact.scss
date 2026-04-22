@@ -1,0 +1,31 @@
+// Contact form
+.contact-form {
+  margin-top: 2rem;
+
+  .form-group { margin-bottom: 1.2rem; }
+
+  label { display: block; margin-bottom: 0.4rem; color: var(--label-text); font-size: 0.95rem; }
+
+  input[type="text"],
+  input[type="email"],
+  textarea,
+  select {
+    width: 100%;
+    padding: 0.75rem;
+    background: var(--input-bg);
+    border: 1px solid var(--border-strong);
+    border-radius: 4px;
+    color: var(--heading);
+    font-family: $font-body;
+    font-size: 1rem;
+    transition: border-color 0.2s;
+
+    &:focus { outline: none; border-color: var(--primary); }
+    &::placeholder { color: var(--placeholder); }
+  }
+
+  textarea { min-height: 150px; resize: vertical; }
+
+  .hp-field { position: absolute; left: -9999px; opacity: 0; height: 0; width: 0; overflow: hidden; }
+  button[type="submit"] { margin-top: 0.5rem; }
+}

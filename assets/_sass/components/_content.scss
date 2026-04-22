@@ -1,0 +1,28 @@
+// Markdown content styling
+.content {
+  blockquote {
+    margin: 1.5em 0;
+    padding: 0.75em 1.25em;
+    border-left: 3px solid var(--primary);
+    font-style: italic;
+    color: var(--blockquote-text);
+    cite { display: block; margin-top: 0.5em; font-size: 0.85em; &:before { content: "\2014 "; } }
+  }
+
+  ul, ol { padding-left: 1.5rem; margin: 0.5rem 0 1.25rem; li { margin-bottom: 0.35rem; line-height: 1.7; } }
+
+  dt { font-weight: 700; color: var(--heading); margin-top: 1rem; }
+  dd { margin-left: 0; margin-bottom: 1rem; padding-left: 1rem; }
+
+  table {
+    margin-bottom: 1.5em;
+    border: 1px solid var(--border);
+    th, td { padding: 0.5em 0.75em; border: 1px solid var(--border); text-align: left; }
+    thead { background: var(--table-head-bg); th { font-weight: 700; color: var(--heading); } }
+    tbody tr:nth-child(even) { background: var(--table-even-bg); }
+  }
+
+  figure { margin: 2em 0; figcaption { margin-top: 0.5em; color: var(--figcaption); font-size: 0.85em; text-align: center; } }
+
+  hr { border: none; border-top: 1px solid var(--border); margin: 2.5rem 0; }
+}

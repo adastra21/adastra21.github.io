@@ -1,0 +1,15 @@
+// Content strip sections
+.strip {
+  position: relative;
+  z-index: 1;
+  padding: 5rem 0;
+
+  @media (max-width: $bp-md) { padding: 3rem 0; }
+
+  .strip-title {
+    h2 { font-size: 1.8rem; margin: 0 0 1rem; color: var(--heading); }
+    p { color: var(--text); max-width: 600px; }
+  }
+}
+
+.strip-grey { background: var(--bg-offset); }

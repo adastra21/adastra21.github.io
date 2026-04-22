@@ -1,0 +1,22 @@
+main:
+  - name: "Home"
+    url: "/"
+    weight: 1
+  - name: "About Us"
+    url: "/about/"
+    weight: 2
+  - name: "Work With Us"
+    url: "/work-with-us/"
+    weight: 3
+  - name: "Substack"
+    url: "https://boringdata.substack.com"
+    weight: 4
+    external: true
+
+footer:
+  - name: "Home"
+    url: "/"
+    weight: 1
+  - name: "Work With Us"
+    url: "/work-with-us/"
+    weight: 2

@@ -1,0 +1,38 @@
+---
+layout: default
+---
+
+<div class="split">
+  <div class="split-left">
+    <div class="split-left-upper">
+      <img src="{{ site.url }}/images/boringdata_logo_lg.png" alt="{{ site.title }}" class="hero-logo">
+      {{ content }}
+      <a href="{{ site.url }}/work-with-us/" class="cta-button">Work With Us</a>
+    </div>
+    <div class="split-left-lower">
+      <h2 class="split-lower-heading">Past Experience</h2>
+      <div class="split-project-row">
+      {% for project in site.data.projects limit:3 %}
+      <a href="{{ project.url }}" target="_blank" rel="noopener noreferrer" class="split-project-card">
+        <img src="{{ project.image }}" alt="{{ project.title }}">
+        <span>{{ project.title }}</span>
+      </a>
+      {% endfor %}
+      </div>
+    </div>
+  </div>
+  <div class="split-right">
+    <div class="services-compact">
+      <h2>Services</h2>
+      <div class="services-compact-row">
+        {% assign sorted_services = site.services | sort: "weight" %}
+        {% for service in sorted_services %}
+        <div class="service-compact-item">
+          <h3>{{ service.title }}</h3>
+          <p>{{ service.description }}</p>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>

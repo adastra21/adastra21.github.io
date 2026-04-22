@@ -1,0 +1,23 @@
+// Featured work / project cards
+.featured-work {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  margin-top: 2rem;
+  @media (max-width: $bp-md) { grid-template-columns: 1fr; }
+}
+
+.project-card {
+  background: var(--card-bg-hover);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  overflow: hidden;
+  transition: transform 0.2s, border-color 0.2s;
+  text-decoration: none;
+  display: block;
+
+  &:hover { transform: translateY(-3px); border-color: var(--card-border-hover); }
+
+  .project-image { width: 100%; height: 160px; object-fit: cover; }
+  .project-title { padding: 1rem; font-size: 0.95rem; color: var(--heading); text-align: center; font-family: $font-heading; }
+}

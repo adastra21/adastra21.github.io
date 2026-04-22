@@ -1,0 +1,14 @@
+<div class="main-menu-mobile" id="main-menu-mobile">
+  <ul>
+    {% assign sorted_menu = site.data.menus.main | sort: "weight" %}
+    {% for item in sorted_menu %}
+    <li>
+      {% if item.external %}
+      <a href="{{ item.url }}" target="_blank" rel="noopener noreferrer">{{ item.name }} <span class="external-icon">&#8599;</span></a>
+      {% else %}
+      <a href="{{ site.url }}{{ item.url }}" {% if page.url == item.url %}class="active"{% endif %}>{{ item.name }}</a>
+      {% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+</div>

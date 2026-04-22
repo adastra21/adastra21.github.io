@@ -1,0 +1,43 @@
+// Buttons
+.button,
+.cta-button {
+  display: inline-block;
+  padding: 0.85rem 2.2rem;
+  background: var(--primary);
+  color: var(--primary-text);
+  font-size: 1rem;
+  font-weight: 700;
+  font-family: $font-body;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background 0.2s, transform 0.2s;
+  border: none;
+  cursor: pointer;
+  letter-spacing: 0.02em;
+
+  &:hover, &:focus {
+    background: var(--primary-hover);
+    transform: translateY(-1px);
+    color: var(--primary-text);
+  }
+
+  &:visited { color: var(--primary-text); }
+}
+
+.button-outline {
+  display: inline-block;
+  padding: 0.75rem 2rem;
+  background: transparent;
+  color: var(--primary);
+  font-size: 0.95rem;
+  font-weight: 700;
+  font-family: $font-body;
+  text-decoration: none;
+  border-radius: 4px;
+  border: 2px solid var(--primary);
+  transition: background 0.2s, color 0.2s;
+  cursor: pointer;
+
+  &:hover, &:focus { background: var(--primary); color: var(--primary-text); }
+  &:visited { color: var(--primary); &:hover { color: var(--primary-text); } }
+}

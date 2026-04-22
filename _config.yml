@@ -1,0 +1,41 @@
+# Site
+title: boring data
+description: "Product Analytics | Predictive Modelling | Responsible AI"
+tagline: "sleepy data to magical insights"
+url: "https://boringdata.org"
+logo: boringdata_logo_sm.png
+locale: en_US
+
+# Collections
+collections:
+  services:
+    output: false
+
+# Jekyll
+permalink:          /:title/
+markdown:           kramdown
+highlighter:        rouge
+kramdown:
+  auto_ids:         true
+  footnote_nr:      1
+  entity_output:    as_char
+  toc_levels:       1..6
+  enable_coderay:   false
+sass:
+  sass_dir:         assets/_sass
+  style:            compressed
+
+# Social Links
+email:             hello@boringdata.org
+linkedin:          boringdata
+github:            adastra21
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-gist
+
+# Include / Exclude
+include: [_pages, CNAME]
+exclude: [README.md, Gemfile, Gemfile.lock, _site, src, vendor, LICENSE, Rakefile, .sass-cache, .DS_Store, _posts]

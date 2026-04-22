@@ -1,0 +1,37 @@
+---
+layout: default
+---
+
+<div class="page-content content">
+  {% if page.title %}<h1>{{ page.title }}</h1>{% endif %}
+
+  {{ content }}
+
+  <form class="contact-form" action="https://formsubmit.io/send/437a08a1-e777-4311-87e8-09d828490461" method="POST">
+    <input type="text" name="_honey" class="hp-field" tabindex="-1" autocomplete="off">
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_subject" value="New inquiry — boring data">
+    <div class="form-group">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" placeholder="Your name" required>
+    </div>
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="you@example.com" required>
+    </div>
+    <div class="form-group">
+      <label for="data-maturity">What is your data maturity?</label>
+      <select id="data-maturity" name="data_maturity" required>
+        <option value="" disabled selected>Select an option</option>
+        <option value="early-stage">Early-stage startup without any data analytics</option>
+        <option value="mid-stage">Mid-stage startup with product-market fit looking to level up</option>
+        <option value="mature">Mature organization upgrading tools and processes for digital transformation</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="message">Message</label>
+      <textarea id="message" name="message" placeholder="Tell me about your project..." required></textarea>
+    </div>
+    <button type="submit" class="button">Send Message</button>
+  </form>
+</div>

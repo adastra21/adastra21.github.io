@@ -1,0 +1,88 @@
+// ===========================================
+// Theme — CSS custom properties for light/dark mode
+// ===========================================
+
+// Dark theme (default)
+[data-theme="dark"] {
+  --bg: #2c2d33;
+  --bg-offset: rgba(255,255,255,0.03);
+  --text: rgba(255,255,255,0.75);
+  --text-secondary: rgba(255,255,255,0.5);
+  --text-muted: rgba(255,255,255,0.35);
+  --heading: #ffffff;
+  --primary: #72cc96;
+  --primary-hover: #5fb888;
+  --primary-text: #2c2d33;
+  --border: rgba(255,255,255,0.08);
+  --border-strong: rgba(255,255,255,0.15);
+  --card-bg: rgba(255,255,255,0.04);
+  --card-bg-hover: rgba(255,255,255,0.06);
+  --card-border-hover: rgba(114,204,150,0.4);
+  --header-bg: rgba(44,45,51,0.88);
+  --header-bg-solid: rgba(44,45,51,0.97);
+  --code-bg: rgba(255,255,255,0.05);
+  --nav-link: rgba(255,255,255,0.7);
+  --nav-link-hover: #ffffff;
+  --footer-link: rgba(255,255,255,0.5);
+  --footer-copy: rgba(255,255,255,0.3);
+  --input-bg: rgba(255,255,255,0.08);
+  --label-text: rgba(255,255,255,0.8);
+  --placeholder: rgba(255,255,255,0.35);
+  --selection-bg: #72cc96;
+  --selection-text: #ffffff;
+  --canvas-dot: rgba(255,255,255,0.35);
+  --canvas-line-rgb: 255,255,255;
+  --canvas-line-max: 0.07;
+  --blockquote-text: rgba(255,255,255,0.65);
+  --table-head-bg: rgba(255,255,255,0.05);
+  --table-even-bg: rgba(255,255,255,0.02);
+  --figcaption: rgba(255,255,255,0.5);
+  --split-border: rgba(255,255,255,0.06);
+}
+
+// Light theme
+[data-theme="light"] {
+  --bg: #ffffff;
+  --bg-offset: rgba(44,45,51,0.03);
+  --text: rgba(44,45,51,0.75);
+  --text-secondary: rgba(44,45,51,0.5);
+  --text-muted: rgba(44,45,51,0.35);
+  --heading: #2c2d33;
+  --primary: #4ea872;
+  --primary-hover: #3d8a5e;
+  --primary-text: #ffffff;
+  --border: rgba(44,45,51,0.1);
+  --border-strong: rgba(44,45,51,0.2);
+  --card-bg: rgba(44,45,51,0.03);
+  --card-bg-hover: rgba(44,45,51,0.06);
+  --card-border-hover: rgba(78,168,114,0.4);
+  --header-bg: rgba(255,255,255,0.9);
+  --header-bg-solid: rgba(255,255,255,0.97);
+  --code-bg: rgba(44,45,51,0.05);
+  --nav-link: rgba(44,45,51,0.65);
+  --nav-link-hover: #2c2d33;
+  --footer-link: rgba(44,45,51,0.45);
+  --footer-copy: rgba(44,45,51,0.35);
+  --input-bg: rgba(44,45,51,0.05);
+  --label-text: rgba(44,45,51,0.75);
+  --placeholder: rgba(44,45,51,0.3);
+  --selection-bg: #4ea872;
+  --selection-text: #ffffff;
+  --canvas-dot: rgba(44,45,51,0.3);
+  --canvas-line-rgb: 44,45,51;
+  --canvas-line-max: 0.18;
+  --blockquote-text: rgba(44,45,51,0.65);
+  --table-head-bg: rgba(44,45,51,0.05);
+  --table-even-bg: rgba(44,45,51,0.02);
+  --figcaption: rgba(44,45,51,0.5);
+  --split-border: rgba(44,45,51,0.08);
+}
+
+// Transition for smooth theme switching
+html[data-theme] {
+  transition: background-color 0.3s ease;
+}
+
+body {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}

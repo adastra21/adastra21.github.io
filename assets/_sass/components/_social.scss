@@ -1,0 +1,24 @@
+// Social icon links
+.social-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 0;
+  margin: 0;
+
+  li a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    color: var(--footer-link);
+    transition: color 0.2s;
+
+    &:hover { color: var(--primary); }
+    &:visited { color: var(--footer-link); &:hover { color: var(--primary); } }
+
+    svg { width: 20px; height: 20px; fill: currentColor; }
+  }
+}

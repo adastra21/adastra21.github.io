@@ -1,0 +1,90 @@
+// ===========================================
+// Typography — Google Fonts + type scale
+// ===========================================
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+
+body {
+  font-family: $font-body;
+  font-size: 16px;
+  color: var(--text);
+  background: var(--bg);
+
+  @media (min-width: $bp-md) {
+    font-size: 18px;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-heading;
+  color: var(--heading);
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 2rem 0 0.75rem;
+}
+
+h1 { font-size: 2.4rem; }
+h2 { font-size: 1.8rem; }
+h3 { font-size: 1.4rem; }
+h4 { font-size: 1.15rem; }
+h5 { font-size: 1rem; }
+h6 { font-size: 0.9rem; }
+
+p {
+  margin: 0 0 1.25rem;
+  line-height: 1.7;
+}
+
+a {
+  color: var(--primary);
+  transition: color 0.2s;
+
+  &:hover, &:focus {
+    color: var(--primary-hover);
+  }
+
+  &:visited {
+    color: var(--primary);
+  }
+}
+
+strong, b {
+  font-weight: 700;
+  color: var(--heading);
+}
+
+small {
+  font-size: 0.85em;
+}
+
+::selection {
+  color: var(--selection-text);
+  background: var(--selection-bg);
+}
+
+::-moz-selection {
+  color: var(--selection-text);
+  background: var(--selection-bg);
+}
+
+pre {
+  overflow-x: auto;
+  padding: 1rem;
+  line-height: 1.5;
+  margin: 0 0 1.25rem;
+  background: var(--code-bg);
+  border-radius: 4px;
+  font-family: $font-code;
+  font-size: 0.9em;
+}
+
+code {
+  font-family: $font-code;
+  font-size: 0.9em;
+}
+
+p > code, li > code, td > code {
+  padding: 0.15rem 0.3rem;
+  background: var(--code-bg);
+  border-radius: 3px;
+}

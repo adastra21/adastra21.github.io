@@ -1,0 +1,30 @@
+// Site footer
+.footer {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  padding: 3rem 2rem;
+  border-top: 1px solid var(--border);
+
+  .footer-social { margin-bottom: 1rem; }
+
+  .footer-menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 0;
+    margin: 0 0 1.5rem;
+
+    li a {
+      color: var(--footer-link);
+      font-size: 0.9rem;
+      text-decoration: none;
+      transition: color 0.2s;
+      &:hover { color: var(--nav-link-hover); }
+      &:visited { color: var(--footer-link); }
+    }
+  }
+
+  .footer-copy { color: var(--footer-copy); font-size: 0.85rem; margin: 0; }
+}

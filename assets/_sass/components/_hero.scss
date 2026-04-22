@@ -1,0 +1,36 @@
+// Hero section (used on non-split pages)
+.hero {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+  padding: 2rem;
+
+  .hero-logo {
+    width: 100px;
+    height: auto;
+    margin-bottom: 1.5rem;
+  }
+
+  h1 {
+    font-size: 3rem;
+    margin: 0 0 0.5rem;
+    color: var(--heading);
+
+    @media (max-width: $bp-md) { font-size: 2.2rem; }
+  }
+
+  .hero-tagline {
+    font-size: 1.25rem;
+    color: var(--text);
+    margin: 0 0 2rem;
+    max-width: 500px;
+    font-family: $font-body;
+
+    @media (max-width: $bp-md) { font-size: 1.05rem; }
+  }
+}

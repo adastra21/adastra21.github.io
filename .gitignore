@@ -1,0 +1,22 @@
+# Created by https://www.toptal.com/developers/gitignore/api/jekyll
+
+### Jekyll ###
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+_config_dev.yml
+_posts_default/
+
+Gemfile.lock
+
+# macOS
+.DS_Store
+
+# Bundler
+.bundle/
+vendor/bundle/
+
+CLAUDE.md
+
+# End
