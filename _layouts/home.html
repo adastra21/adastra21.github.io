@@ -13,10 +13,10 @@ layout: default
       <h2 class="split-lower-heading">Past Experience</h2>
       <div class="split-project-row">
       {% for project in site.data.projects limit:3 %}
-      <a href="{{ project.url }}" target="_blank" rel="noopener noreferrer" class="split-project-card">
+      <div class="split-project-card">
         <img src="{{ project.image }}" alt="{{ project.title }}">
         <span>{{ project.title }}</span>
-      </a>
+      </div>
       {% endfor %}
       </div>
     </div>
