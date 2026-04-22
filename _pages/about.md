@@ -5,7 +5,12 @@ permalink: /about/
 ---
 
 <div class="about-panel">
-  <img src="{{ site.url }}/images/bd23.png" alt="Abdur Rehman" class="about-photo">
+  <div class="about-photo-col">
+    <img src="{{ site.url }}/images/bd23.png" alt="Abdur Rehman" class="about-photo">
+    <div class="about-social">
+      {% include social.html %}
+    </div>
+  </div>
   <div class="about-panel-text">
     <h2>Abdur Rehman, Founder &amp; Analytics Lead</h2>
     <p>I'm a seasoned data scientist with 8+ years of experience in product analytics, predictive modelling, and responsible AI in the technology industry, including 5+ years in e-commerce.</p>

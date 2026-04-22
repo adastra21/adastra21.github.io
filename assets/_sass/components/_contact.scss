@@ -29,3 +29,13 @@
   .hp-field { position: absolute; left: -9999px; opacity: 0; height: 0; width: 0; overflow: hidden; }
   button[type="submit"] { margin-top: 0.5rem; }
 }
+
+.form-success {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  border-left: 3px solid var(--primary);
+  background: var(--input-bg);
+  border-radius: 4px;
+
+  p { margin: 0; color: var(--heading); font-size: 1.05rem; }
+}

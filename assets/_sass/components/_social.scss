@@ -22,3 +22,16 @@
     svg { width: 20px; height: 20px; fill: currentColor; }
   }
 }
+
+.about-social .social-links {
+  li a {
+    width: 44px;
+    height: 44px;
+    color: var(--nav-link);
+
+    &:hover { color: var(--primary); }
+    &:visited { color: var(--nav-link); &:hover { color: var(--primary); } }
+
+    svg { width: 26px; height: 26px; }
+  }
+}

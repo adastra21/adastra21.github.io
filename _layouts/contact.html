@@ -7,10 +7,15 @@ layout: default
 
   {{ content }}
 
-  <form class="contact-form" action="https://formsubmit.io/send/437a08a1-e777-4311-87e8-09d828490461" method="POST">
-    <input type="text" name="_honey" class="hp-field" tabindex="-1" autocomplete="off">
-    <input type="hidden" name="_captcha" value="false">
-    <input type="hidden" name="_subject" value="New inquiry — boring data">
+  <div class="form-success" id="form-success" style="display:none">
+    <p>Thank you for contacting boring data! We will be in touch shortly.</p>
+  </div>
+
+  <form class="contact-form" id="contact-form" action="https://api.web3forms.com/submit" method="POST">
+    <input type="hidden" name="access_key" value="ceeedf12-891d-4356-b5c9-1f5909499845">
+    <input type="hidden" name="redirect" value="{{ site.url }}/work-with-us/?success=true">
+    <input type="checkbox" name="botcheck" class="hp-field" tabindex="-1" autocomplete="off" style="display:none">
+    <input type="hidden" name="subject" value="New inquiry — boring data">
     <div class="form-group">
       <label for="name">Name</label>
       <input type="text" id="name" name="name" placeholder="Your name" required>
@@ -34,4 +39,11 @@ layout: default
     </div>
     <button type="submit" class="button">Send Message</button>
   </form>
+
+  <script>
+    if (new URLSearchParams(window.location.search).get('success') === 'true') {
+      document.getElementById('contact-form').style.display = 'none';
+      document.getElementById('form-success').style.display = 'block';
+    }
+  </script>
 </div>

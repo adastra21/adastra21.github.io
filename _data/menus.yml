@@ -13,10 +13,4 @@ main:
     weight: 4
     external: true
 
-footer:
-  - name: "Home"
-    url: "/"
-    weight: 1
-  - name: "Work With Us"
-    url: "/work-with-us/"
-    weight: 2
+footer: []
